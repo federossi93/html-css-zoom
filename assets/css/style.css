@@ -23,6 +23,7 @@
 }
 
 /*#region webcam*/
+
 img{
     width: 100%;
 }
@@ -35,7 +36,7 @@ img{
 }
 
 .webcam{
-    width: 80%;
+    width: 90%;
     margin: auto;
 }
 .clearfix:after{
@@ -61,3 +62,53 @@ img{
     }
 
     /*#endregion webcam*/
+
+
+/*#region menu*/
+.bg_menu{
+    background-color: var(--bg_icon_dark);
+
+}
+
+.menu{
+    color: white;
+    font-size: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu_left{
+    display: inline-block;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.menu_center{
+    display: inline-block;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+#bg_color{
+    color: var(--bg_icon);
+}
+
+.menu_right{
+    background-color: var(--bg_icon_light);
+    text-align: center;
+    align-items: center;
+    gap: 15px;
+    padding: 1rem;
+}
+
+#end_m{
+    color: var(--red);
+}
+
+
+/*#endregion menu*/
