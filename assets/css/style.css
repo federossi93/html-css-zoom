@@ -12,3 +12,52 @@
     --red: #E52623;
     --bg_text_w: #FFFFFF;
 }
+
+#site_main{
+    background-color: var(--black);
+}
+
+.player{
+    text-align: end;
+    padding: 10px;
+}
+
+/*#region webcam*/
+img{
+    width: 100%;
+}
+.expand_icons{
+    color: var(--bg_text_w);
+    padding: 0.25rem;
+    background-color: var(--bg_icon_light);
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.webcam{
+    width: 80%;
+    margin: auto;
+}
+.clearfix:after{
+        content: "";
+        clear: both;
+        display: table;
+    }
+
+    .card{
+        width: calc(100% / 7 - 20px);
+        position: relative;
+        float: left;
+        margin: 10px;
+        
+    }
+
+    .name{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        color: white;
+        background-color: rgba(128, 128, 128, 0.637);
+    }
+
+    /*#endregion webcam*/
