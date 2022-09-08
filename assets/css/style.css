@@ -1,0 +1,14 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --black: #000000;
+    --bg_icon_dark: #222222;
+    --bg_icon_light: #4A4A4A;
+    --bg_icon: #4BC800;
+    --red: #E52623;
+    --bg_text_w: #FFFFFF;
+}
